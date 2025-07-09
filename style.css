@@ -221,11 +221,12 @@ p {
   .head {
     display: block !important;
     margin-top: -30%px;
-    height: 50px;
+    height: 60px;
     border-bottom: 3px solid hsl(0, 0%, 100%) !important;
+    margin-bottom: 20px;
   }
   .title {
-    margin-top: -20%;
+    margin-top: -40%;
     display: inline-block !important;
     margin-bottom: 50px !important;
   }
@@ -233,8 +234,8 @@ p {
     font-size: 24px !important;
   }
   .head .es {
-    margin-top: -05% !important;
-    margin-left: 60px !important;
+    margin-bottom: 01% !important;
+    margin-left: 30px !important;
   }
   .head .but {
     margin-left: 65% !important;
@@ -269,6 +270,6 @@ p {
     /* margin: 3px; */
     margin-right: 20px !important;
     margin-left: -19px !important;
-    width: 248% !important;
+    width: 255% !important;
   }
 }
