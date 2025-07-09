@@ -213,14 +213,14 @@ p {
 }
 @media screen and (max-width: 380px) {
   .main {
-    width: 80% !important;
+    width: 300% !important;
     height: 300% !important;
     border-radius: 0px !important;
     border-color: white !important;
   }
   .head {
     display: block !important;
-    border-bottom: 8px solid red !important;
+    border-bottom: 3px solid hsl(0, 0%, 100%) !important;
   }
   .title {
     display: inline-block !important;
@@ -230,12 +230,12 @@ p {
     font-size: 24px !important;
   }
   .head .es {
-    margin-top: 10% !important;
+    margin-top: 0% !important;
     margin-left: 60px !important;
   }
   .head .but {
     margin-left: 65% !important;
-    margin-top: -20px !important;
+    margin-top: -50px !important;
   }
   .li {
     display: inline-block !important;
@@ -249,7 +249,7 @@ p {
   .colc,
   .cold {
     margin-left: -30px !important;
-    width: 69% !important;
+    width: 97% !important;
     height: 25%;
   }
   .containner {
@@ -264,8 +264,8 @@ p {
   .col3 {
     display: inline-block !important;
     /* margin: 3px; */
-    margin-right: 10px !important;
-    margin-left: -24px !important;
-    width: 300% !important;
+    margin-right: 20px !important;
+    margin-left: -19px !important;
+    width: 250% !important;
   }
 }
