@@ -206,12 +206,12 @@ p {
   font-size: 15px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1200px) {
   .main {
     width: 65%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .main {
     width: 80% !important;
     height: 300% !important;
@@ -220,9 +220,12 @@ p {
   }
   .head {
     display: block !important;
+    margin-top: 10px;
+    height: 50px;
     border-bottom: 3px solid hsl(0, 0%, 100%) !important;
   }
   .title {
+    margin-top: -30%;
     display: inline-block !important;
     margin-bottom: 50px !important;
   }
@@ -235,11 +238,11 @@ p {
   }
   .head .but {
     margin-left: 65% !important;
-    margin-top: -50px !important;
+    margin-top: 0px !important;
   }
   .li {
     display: inline-block !important;
-    margin-top: 20px !important;
+    margin-top: 40px !important;
     margin: 70px 30px !important;
     justify-content: center !important;
     align-items: center !important;
@@ -266,6 +269,6 @@ p {
     /* margin: 3px; */
     margin-right: 20px !important;
     margin-left: -19px !important;
-    width: 245% !important;
+    width: 248% !important;
   }
 }
