@@ -39,6 +39,13 @@ body {
   text-transform: capitalize;
   color: hsl(227, 47%, 96%);
 }
+.but {
+  margin-left: 1%;
+  margin-bottom: 60px;
+  /* float: right; */
+  text-transform: capitalize;
+  color: hsl(227, 47%, 96%);
+}
 
 .cola {
   background-color: hsl(228, 28%, 20%);
@@ -197,4 +204,67 @@ p {
 .par {
   margin-top: 35px;
   font-size: 15px;
+}
+
+@media screen and (max-width: 1440px) {
+  .main {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main {
+    width: 80% !important;
+    height: 300% !important;
+    border-radius: 0px !important;
+    border-color: white !important;
+  }
+  .head {
+    display: block !important;
+    border-bottom: 2px solid !important;
+  }
+  .title {
+    display: inline-block !important;
+    margin-bottom: 20px !important;
+  }
+  .title h1 {
+    font-size: 24px !important;
+  }
+  .head .es {
+    margin-top: 10% !important;
+    margin-left: 60px !important;
+  }
+  .head .but {
+    margin-left: 65% !important;
+    margin-top: -20px !important;
+  }
+  .li {
+    display: inline-block !important;
+    margin-top: 50px !important;
+    margin: 70px 30px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .cola,
+  .colb,
+  .colc,
+  .cold {
+    margin-left: -28px !important;
+    width: 95% !important;
+  }
+  .containner {
+    display: inline-block !important;
+  }
+  .row {
+    display: inline-block !important;
+    padding: 20px !important;
+    gap: 40px !important;
+    height: 10% !important;
+  }
+  .col3 {
+    display: inline-block !important;
+    /* margin: 3px; */
+    margin-right: 10px !important;
+    margin-left: -24px !important;
+    width: 300% !important;
+  }
 }
